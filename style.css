@@ -366,7 +366,7 @@
   }
 
   #image-box {
-    width: 500px;
+    min-width: 400px;
     background: url('bg.jpg');
     background-size: cover;
     background-position: center;
@@ -395,10 +395,17 @@
   
   form {
       background: #FFFFFF;
+      padding: 30px;
   }
 
   fieldset {
     width: 600px;
+  }
+
+  fieldset legend {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
   }
 
   #form-container {
