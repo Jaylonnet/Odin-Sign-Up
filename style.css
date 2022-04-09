@@ -392,10 +392,13 @@
   #logo img {
     width: 100px;
   }
+
+  #sign-up-text, form {
+    padding: 40px 100px 40px 40px;
+  }
   
   form {
       background: #FFFFFF;
-      padding: 30px;
   }
 
   fieldset {
