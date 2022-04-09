@@ -374,13 +374,13 @@
 
   #logo {
     position: relative;
-    top: 30%;
+    top: 160px;
     background: rgba(0,0,0, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 18px;
-    height: 140px;
+    height: 100px;
     padding: 18px;
   }
 
@@ -390,15 +390,22 @@
   }
 
   #logo img {
-    width: 100px;
+    width: 75px;
   }
 
   #sign-up-text, form {
     padding: 40px 100px 40px 40px;
   }
+
+  #sign-up-text, fieldset legend {
+    font-size: 1.4rem;
+    color: rgb(56, 56, 56);
+    font-weight: 700;
+  }
   
   form {
       background: #FFFFFF;
+      border-top: 1px solid rgb(240, 240, 240);
   }
 
   fieldset {
@@ -407,7 +414,6 @@
 
   fieldset legend {
     font-weight: 700;
-    font-size: 24px;
     margin-bottom: 10px;
   }
 
@@ -431,7 +437,9 @@
   .input-box label {
       text-transform: uppercase;
       font-size: 0.8em;
-      font-weight: 500;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: rgb(56, 56, 56);
   }
 
   .input-box input:not([name="password"], [name="confirmPassword"]) {
