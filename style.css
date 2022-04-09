@@ -454,3 +454,8 @@
   .error {
     border: 1px solid red;
   }
+
+  #password-error {
+    color: red;
+    font-size: 0.8rem;
+  }
