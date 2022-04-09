@@ -18,10 +18,13 @@
             </div>
         </div>
         <div id="form-container">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize
-                your deepest dreams.</p>
-            <p>Sign up <em>now</em> to get started.</p>
-            <p>You <em>know</em> you want to.</p>
+            <div id="sign-up-text">
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize
+                    your deepest dreams.</p>
+                <p>Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
             <form action="" method="post">
                 <fieldset>
                     <legend>Sign Up Form</legend>
@@ -43,7 +46,8 @@
                     </div>
                     <div class="input-box">
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" class="error" name="password">
+                        <div id="password-error">*Passwords must match</div>
                     </div>
                     <div class="input-box">
                         <label for="confirmPassword">Confirm Password</label>
