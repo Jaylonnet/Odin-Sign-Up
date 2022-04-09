@@ -355,6 +355,7 @@
 
   body {
     background: #0E0E0E;
+    font-family: 'Roboto', sans-serif;
   }
 
   #container {
@@ -371,7 +372,19 @@
     background-position: center;
   }
 
-  #logo p {
+  #logo {
+    position: relative;
+    top: 30%;
+    background: rgba(0,0,0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    height: 140px;
+    padding: 18px;
+  }
+
+  #logo-text {
     color: white;
     font-size: 4rem;
   }
@@ -381,7 +394,15 @@
   }
   
   form {
-      width: 600px;
+      background: #FFFFFF;
+  }
+
+  fieldset {
+    width: 600px;
+  }
+
+  #form-container {
+    background: #F9FAFB;
   }
 
   form fieldset {
@@ -394,7 +415,6 @@
       width: 240px;
       display: flex;
       flex-direction: column;
-      font-family: 'Roboto', sans-serif;
       margin-top: 18px;
   }
 
@@ -404,8 +424,15 @@
       font-weight: 500;
   }
 
+  .input-box input:not([name="password"], [name="confirmPassword"]) {
+    border: 1px solid #d9dbdd;
+}
+
   .input-box input {
-      padding: 4px;
-      border: 1px solid #d9dbdd;
+      padding: 6px;
       border-radius: 4px;
+  }
+
+  .error {
+    border: 1px solid red;
   }
