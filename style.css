@@ -367,9 +367,17 @@
   #image-box {
     width: 500px;
     background: url('bg.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  #logo p {
+    color: white;
+    font-size: 4rem;
+  }
+
+  #logo img {
+    width: 100px;
   }
   
   form {
