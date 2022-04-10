@@ -393,7 +393,7 @@
     width: 75px;
   }
 
-  #sign-up-text, form {
+  #sign-up-text, #form-field-wrapper {
     padding: 40px 100px 40px 40px;
   }
 
@@ -403,7 +403,7 @@
     font-weight: 700;
   }
   
-  form {
+  #form-field-wrapper {
       background: #FFFFFF;
       border-top: 1px solid rgb(240, 240, 240);
       box-shadow: 0px 4px 8px rgb(163, 163, 163);
