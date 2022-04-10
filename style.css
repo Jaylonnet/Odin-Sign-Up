@@ -392,6 +392,11 @@ a {
   text-decoration: none;
 }
 
+input {
+  border: none;
+  outline: none;
+}
+
 #container {
   max-width: 1200px;
   margin: 0 auto;
@@ -440,7 +445,7 @@ a {
 #form-field-wrapper {
   background: #FFFFFF;
   border-top: 1px solid rgb(240, 240, 240);
-  box-shadow: 0px 4px 8px rgb(163, 163, 163);
+  box-shadow: 0px 4px 4px rgb(163, 163, 163);
 }
 
 fieldset {
@@ -478,17 +483,20 @@ form fieldset {
   color: rgb(56, 56, 56);
 }
 
-.input-box input:not([name="password"], [name="confirmPassword"]) {
-  border: 1px solid #d9dbdd;
-}
-
 .input-box input {
+  border: 1px solid #d9dbdd;
   padding: 6px;
   border-radius: 4px;
 }
 
+input:focus {
+  border: 1px solid blue;
+  outline: none;
+  box-shadow: 0px 4px 4px rgb(163, 163, 163);
+}
+
 .error {
-  border: 1px solid red;
+  border: 1px solid red !important;
 }
 
 #password-error {
