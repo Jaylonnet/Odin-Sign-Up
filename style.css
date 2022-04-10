@@ -522,3 +522,17 @@ form button {
   color: #596D48;
   font-weight: 700;
 }
+
+.attribution {
+  font-size: 0.6rem;
+  position: absolute;
+  bottom: 0px;
+}
+
+.attribution, .attribution a {
+  color: white;
+}
+
+.attribution a {
+  text-decoration: underline;
+}
