@@ -393,7 +393,7 @@
     width: 75px;
   }
 
-  #sign-up-text, #form-field-wrapper {
+  #sign-up-text, #form-field-wrapper, #below-form {
     padding: 40px 100px 40px 40px;
   }
 
@@ -459,4 +459,14 @@
   #password-error {
     color: red;
     font-size: 0.8rem;
+  }
+
+  form button {
+    background: #596D48;
+    color: #FDFDFD;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 30px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
   }
