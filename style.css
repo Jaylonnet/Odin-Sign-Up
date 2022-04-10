@@ -358,11 +358,14 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  a {
+    text-decoration: none;
+  }
   #container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
   }
 
   #image-box {
@@ -469,4 +472,13 @@
     padding: 14px 30px;
     font-weight: 700;
     letter-spacing: 0.2px;
+  }
+
+  #below-form p {
+    margin-top: 30px;
+  }
+
+  #below-form a {
+    color: #596D48;
+    font-weight: 700;
   }
